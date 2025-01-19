@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pascalino - Página dedicada a proyectos de programación en Pascal.">
+    <title>Pascalino</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000080; /* Turbo Pascal 3.0 dark blue */
+            color: #00FF00; /* Bright green text */
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #0000A0; /* Slightly lighter blue */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        main {
+            padding: 20px;
+            height: calc(100vh - 60px);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .menu {
+            background-color: #000050; /* Darker menu area */
+            padding: 10px;
+            border: 2px solid #FFFFFF; /* White border */
+            margin-bottom: 20px;
+        }
+
+        .menu h2 {
+            margin-top: 0;
+            color: #FFFF00; /* Bright yellow */
+        }
+
+        .content {
+            flex-grow: 1;
+            overflow-y: auto;
+            border: 2px solid #FFFFFF;
+            padding: 10px;
+            background-color: #000040; /* Very dark blue */
+        }
+
+        .content h3 {
+            color: #00FFFF; /* Cyan headings */
+        }
+
+        footer {
+            background-color: #0000A0;
+            text-align: center;
+            padding: 5px;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #FFFF00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Pascalino - Proyectos de Programación en Pascal
+    </header>
+    <main>
+        <div class="menu">
+            <h2>Menú Principal</h2>
+            <ul>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#examples">Ejemplos</a></li>
+                <li><a href="#resources">Recursos</a></li>
+            </ul>
+        </div>
+        <div class="content" id="content">
+            <h3 id="projects">Proyectos en Pascal</h3>
+            <p>Descubre proyectos programados en Pascal, desde juegos simples hasta herramientas avanzadas.</p>
+
+            <h3 id="examples">Ejemplos de Código</h3>
+            <p>Explora ejemplos prácticos para aprender Pascal, incluyendo estructuras de control, manejo de archivos y más.</p>
+
+            <h3 id="resources">Recursos</h3>
+            <p>Accede a compiladores, documentación y tutoriales para desarrollar tus habilidades en Pascal.</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Pascalino. Inspirado en Turbo Pascal 3.0.
+    </footer>
+</body>
+</html>
