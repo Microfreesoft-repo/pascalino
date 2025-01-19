@@ -1,6 +1,4 @@
-Aquí tienes un ejemplo de un archivo `README.md` para tu repositorio de Pascalino: 
 
-```markdown
 # Pascalino
 
 ¡Bienvenido a **Pascalino**! Este repositorio está dedicado al uso del lenguaje de programación Pascal con varios compiladores e intérpretes históricos y modernos. Nuestro objetivo es preservar, aprender y explorar el potencial de Pascal a través de diferentes herramientas y versiones.
