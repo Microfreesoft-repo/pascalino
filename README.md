@@ -108,6 +108,3 @@ Si deseas contribuir con ejemplos, proyectos o mejoras, sigue estos pasos:
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ¡Gracias por visitar **Pascalino** y explorar el mundo de Pascal con nosotros!
-``` 
-
-Puedes ajustar las descripciones y enlaces según sea necesario. Esto proporciona una introducción clara, una estructura organizada y detalles relevantes para los usuarios interesados en el lenguaje Pascal.
