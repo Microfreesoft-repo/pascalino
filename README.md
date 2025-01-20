@@ -1,4 +1,3 @@
-
 # Pascalino
 
 ¡Bienvenido a **Pascalino**! Este repositorio está dedicado al uso del lenguaje de programación Pascal con varios compiladores e intérpretes históricos y modernos. Nuestro objetivo es preservar, aprender y explorar el potencial de Pascal a través de diferentes herramientas y versiones.
@@ -22,12 +21,27 @@ La estructura del repositorio es la siguiente:
 
 ```plaintext
 Pascalino/
-├── TurboPascal3/      # Recursos y ejemplos para Turbo Pascal 3.0
-├── TurboPascal5/      # Recursos y ejemplos para Turbo Pascal 5.0
-├── TPW/               # Recursos y ejemplos para Turbo Pascal for Windows
-├── FreePascal/        # Recursos y ejemplos para Free Pascal
-├── Examples/          # Ejemplos de código y proyectos en Pascal
-└── README.md          # Archivo de introducción al repositorio
+├── TP3/                  # Turbo Pascal 3.0
+│   ├── Recursos/         # Documentos, configuraciones y herramientas
+│   ├── Doc/              # Información del lenguaje para esta versión
+│   ├── Ejemplos/         # Ejemplos básicos y avanzados
+│   └── Proyectos/        # Proyectos programados en Turbo Pascal 3.0
+├── TP5/                  # Turbo Pascal 5.0
+│   ├── Recursos/         # Documentos, configuraciones y herramientas
+│   ├── Doc/              # Información del lenguaje para esta versión
+│   ├── Ejemplos/         # Ejemplos básicos y avanzados
+│   └── Proyectos/        # Proyectos programados en Turbo Pascal 5.0
+├── TPW/                  # Turbo Pascal for Windows
+│   ├── Recursos/         # Documentos, configuraciones y herramientas
+│   ├── Doc/              # Información del lenguaje para esta versión
+│   ├── Ejemplos/         # Ejemplos básicos y avanzados
+│   └── Proyectos/        # Proyectos programados en TPW
+├── FreePascal/           # Free Pascal
+│   ├── Recursos/         # Documentos, configuraciones y herramientas
+│   ├── Doc/              # Información del lenguaje para esta versión
+│   ├── Ejemplos/         # Ejemplos básicos y avanzados
+│   └── Proyectos/        # Proyectos programados en Free Pascal
+└── README.md             # Archivo de introducción al repositorio
 ```
 
 ---
@@ -40,7 +54,7 @@ Lanzado en los años 80, Turbo Pascal 3.0 es conocido por su editor integrado y 
 - **Características principales**:
   - Rápida compilación.
   - Código fuente simple y claro.
-- **Ubicación en el repositorio**: `TurboPascal3/`.
+- **Ubicación en el repositorio**: `TP3/`.
 
 ### Turbo Pascal 5.0
 Incluye soporte para depuración avanzada y características modernas para la época. Es una excelente herramienta para aprender programación estructurada.
@@ -48,7 +62,7 @@ Incluye soporte para depuración avanzada y características modernas para la é
 - **Características principales**:
   - Soporte para depuración.
   - Programación modular con unidades.
-- **Ubicación en el repositorio**: `TurboPascal5/`.
+- **Ubicación en el repositorio**: `TP5/`.
 
 ### Turbo Pascal for Windows (TPW)
 TPW permite desarrollar aplicaciones gráficas para Windows, introduciendo un paradigma completamente nuevo para desarrolladores de Pascal.
@@ -70,13 +84,14 @@ Free Pascal es un compilador multiplataforma y moderno compatible con Object Pas
 
 ## Recursos y proyectos
 
-En la carpeta `Examples/`, encontrarás ejemplos de código y proyectos organizados por nivel de dificultad y temática, como:
+En las carpetas `Recursos/`, `Doc/`, `Ejemplos/` y `Proyectos/` de cada compilador encontrarás:
 
+- **Recursos**: Documentación, herramientas y configuraciones específicas para cada compilador.
+- **Doc**: Información del lenguaje Pascal específica para la versión del compilador.
 - **Ejemplos básicos**:
   - Programas de "Hola Mundo".
   - Estructuras de control.
   - Manejo de arrays y registros.
-
 - **Proyectos avanzados**:
   - Calculadoras.
   - Juegos simples.
